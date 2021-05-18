@@ -1,0 +1,22 @@
+Part I:
+Write a Java application that reads text from a file and breaks it up into individual
+words. For each work extracted, add it to a map whose key is the phone keypad
+spelling of the word and whose value is the set of words with the same code. For
+example, 27336 is mapped to the set “Andes”, “coder”, “codes”. 
+
+After reading the text
+file and populating the map, prompt the user for numbers and then print out all of the words in
+the dictionary that can be spelled with that number.
+
+
+Part II:
+Write a program that checks whether a sequence of HTML tags is properly nested. For each
+opening tag, such as <p>, there must be a closing tag </p>. A tag such as <p> may have other
+tags inside, for example
+<p> <ul> <li> </li> </ul> <a> </a> </p>
+
+The inner tags must be closed before the outer ones. Your program should process a file
+containing the tags. 
+
+For simplicity, assume that the tags are separated by spaces, and that there is
+no text inside the tags.

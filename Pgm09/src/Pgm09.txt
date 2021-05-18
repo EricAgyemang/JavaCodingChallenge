@@ -1,0 +1,23 @@
+Part I:
+Implement a class Clock whose getHours and getMinutes methods return the current time at ISU
+(Use java.tim.Instant.now().toString() and extract the time from that string). Also provide a
+getTime method that returns a string with hours and minutes by calling the getHours and
+getMinutes methods. Also provide a subclass of Clock, AlarmClock that adds an additional
+method setAlarm(hours, minutes) in order to set the time the alarm clock will ring. 
+
+Within the AlarmClock, when getTime is called and the alarm time has been reached or exceeded, return the
+time followed by the String “Alarm! Alarm!” and then clear the alarm.
+
+
+
+Part II:
+Implement a superclass Appointment and subclasses OneTime, Daily, and Monthly. An
+appointment has a description (for example, “see doctor”) and a date (use the type
+java.time.LocalDate). Write a method occursOn(int year, int month, int day) that checks whether
+the appointment occurs on that date. For example, for a monthly appointment, you must check
+whether the day of the month matches. The fill an array of Appointment objects with a mixture
+of appointments. Have the user enter a date and print out all appointments that occur on that
+date.
+
+Next, give the user the option to add new appointments where they specify the type of the
+appointment (one time, daily, monthly), the description, and the date.

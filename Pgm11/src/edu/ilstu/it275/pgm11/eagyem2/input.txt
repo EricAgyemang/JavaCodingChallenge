@@ -1,0 +1,5 @@
+This is a program created to test check spelling of all words in a file.
+This program is created by Eric Agyemang for IT class.
+Dinosaurs are a diverse group of reptiles of the clade Dinosauria. 
+They first appeared during the Triassic period, million years ago, 
+although the exact origin and timing of the eveolution is the subject of active research.

@@ -1,0 +1,28 @@
+Part I:
+Implement a class Employee. An employee has a name (a string) and a salary (a double).
+
+Provide a constructor with two arguments
+
+public Employee(String employeeName, double currentSalary)
+and methods
+
+public String getName()
+public double getSalary()
+public void raiseSalary(double byPercent)
+These methods return the name and salary, and raise the employee’s salary by a certain
+percentage.
+
+Sample usage:
+Employee harry = new Employee("Hacker, Harry", 50000);
+harry.raiseSalary(10); // Harry gets a 10 percent raise
+Supply an EmployeeTester class that tests all methods. Ensure that the salary is properly
+formatted in dollars and cents using the NumberFormat class.
+
+
+
+Part II:
+Implement a class Product. A product has a name and a price, for example new
+Product("Toaster", 29.95). Supply methods getName, getPrice, and reducePrice. Supply a
+program ProductPrinter that makes two products, prints each name and price, reduces their prices
+by $5.00, and then prints the prices again. Use the NumberFormat class to format the price into
+dollars and cents.

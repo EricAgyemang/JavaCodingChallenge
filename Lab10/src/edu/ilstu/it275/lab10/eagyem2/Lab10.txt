@@ -1,0 +1,75 @@
+Part I:
+A number sequence can be a sequence of measurements, prices, random values, or
+mathematical values (such as the sequence of prime numbers). There are many
+interesting properties that can be investigated. For example, you can look for
+hidden patterns or test whether a sequence is truly random.
+In order to produce arbitrary sequences, we declare an interface type with a single
+method:
+public interface Sequence {
+int next();
+}
+To analyze a specific sequence, you provide a class that implements the Sequence
+interface. Here are two examples: the sequence of perfect squares (0 1 4 9 16 25 . . .)
+and a sequence of random integers.
+public class SquareSequence implements Sequence {
+private int n;
+public int next() {
+n++;
+return n * n;
+}
+}
+public class RandomSequence implements Sequence {
+public int next() {
+return (int) (Integer.MAX_VALUE * Math.random());
+}
+}
+
+The LastDigitDistribution class analyzes sequences. It can be used to investigate how the
+last digit of each value is distributed. It keeps an array of ten counters. Its process method
+receives a Sequence object and the number of values to process and updates the counters:
+public void process(Sequence seq, int valuesToProcess) {
+for (int i = 1; i <= valuesToProcess; i++) {
+int value = seq.next();
+int lastDigit = value % 10;
+counters[lastDigit]++;
+}
+}
+In the Sequence interface listed above, add static methods that yield Sequence
+instances:
+static Sequence multiplesOf(int n)
+static Sequence powersOf(int n)
+For example, Sequence.powersOf(2) should return the same sequence as the
+SquareSequence listed above.
+Also to the Sequence interface listed above, add a default method:
+default int[] values(int n)
+that yields an array of the first n values of the sequence.
+
+
+
+
+Part II:
+Using the coin class from Lab08 as a starting point, modify it so that it implements
+the Comparable interface. Do not worry at this point about also overriding the
+equals and hashCode methods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

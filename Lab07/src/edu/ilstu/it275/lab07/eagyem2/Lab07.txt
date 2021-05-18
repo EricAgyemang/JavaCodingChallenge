@@ -1,0 +1,36 @@
+Part I:
+Write array methods that carry out the following tasks for an array of integers by
+completing the ArrayMethods class below. Also provide a test class that invokes each of the
+array methods.
+public class ArrayMethods {
+private int [] values;
+public ArrayMethods(int [] initValues) {values = initValues; }
+public void swapFirstAndLast() { … }
+public void shiftRight() { … }
+….
+} 
+Swap the first and last elements in the array
+• Shift all elements to the right by one and move the last element into the first position.
+For example, 1, 4, 9, 16, 25 would be transferred into 25, 1, 4, 6, 16
+• Replace all even numbers with 0.
+• Remove the middle element if the array length is odd, or the middle two elements if the
+length is even
+• Move all even elements to the front, otherwise preserving the order of the elements
+• Return the second largest element in the array
+• Return true if the array is currently sorted in ascending order
+• Return true if the array contains two adjacent duplicate elements
+• Return true if the array contains duplicate elements (which need not be adjacent)
+
+
+Part II:
+Consider the following class:
+public class Sequence {
+private int [] values;
+public Sequence(int size) { values = new int[size]; }
+public void set(int i, int n) { values [i] = n; }
+public int get(int i) { return values [i]; }
+public int size() { return values.length; }
+}
+Add a method:
+public boolean equals(Sequence other)
+That checks whether two sequences have the same values in the same order.

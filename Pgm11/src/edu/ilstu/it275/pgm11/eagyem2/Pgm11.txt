@@ -1,0 +1,19 @@
+Part I:
+Using the following mechanism to read data from a URL connection, write a Java application
+that reads all the data from a specific URL and writes it to a file. Prompt the user for the full
+
+URL and the file name to write to.
+String urlAddr = “http://hostmann.com/index.html";
+URL pageLoc = new URL(urlAddr);
+Scanner in = new Scanner(pageLoc.openStream());
+
+After this sequence of statements, simply read the contents of the web page with the Scanner in
+the usual way. The URL constructor and the openStream method can throw an IOException so
+ensure you are dealing with that possibility appropriately.
+
+
+Part II:
+Write a Java application that checks the spelling of all words in a file. It should read each work
+of a file and check whether it is contained within a word list. A word list is available in the
+words.txt file associated with this assignment The application should print out all words that it
+cannot find in the word list.

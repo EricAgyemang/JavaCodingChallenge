@@ -1,0 +1,12 @@
+Part I:
+Write a Java application that carries out he following tasks.
+• Open a file with the name hello.txt
+• Store the message “Hello, World” in the file.
+• Close the file
+• Open the same file again
+• Read the message into a string variable and print it.
+
+
+Part II:
+Write a Java application that reads a file, removes any blank lines, and writes the
+non-blank lines back to the same file.

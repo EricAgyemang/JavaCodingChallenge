@@ -1,0 +1,16 @@
+Part I:
+You want to decide whether you should drive your car to work or take the train. You know the
+one-way distance from your home to your place of work (73 miles) , and the fuel efficiency of
+your car (in miles per gallon) (18 MPG). You also know the one-way price of a train ticket
+($20.00). You assume the cost of gas at $4 per gallon, and car maintenance at 5 cents per mile.
+Write an application named TravelDecider to decide which commute is cheaper.
+
+
+Part II:
+Write a program LotteryPrinter that picks a combination in a lottery. In this lottery,
+players can choose 6 numbers (possibly repeated) between 1 and 49. Construct an
+object of the Random class and invoke an appropriate method to generate each
+number. (In a real lottery, repetitions aren’t allowed, but we haven’t yet discussed
+the programming constructs that would be required to deal with that problem.)
+Your program should print out a sentence such as “Play this combination—it’ll
+make you rich!”, followed by a lottery combination.

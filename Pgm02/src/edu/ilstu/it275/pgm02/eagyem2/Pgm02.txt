@@ -1,0 +1,49 @@
+Part I:
+Provide a class for authoring a simple letter.
+In the constructor, supply the names of the sender and the recipient:
+public Letter(String from, String to)
+Supply a method public void addLine(String line) to add a line of text to the body of the letter.
+Supply a method public String getText() that returns the entire text of the letter.
+
+The text has the form:
+Dear recipient name:
+blank line
+first line of the body
+second line of the body
+. . .
+last line of the body
+blank line
+Sincerely,
+blank line
+sender name
+Also supply a class LetterPrinter that prints this letter.
+Dear John:
+I am sorry we must part.
+I wish you all the best.
+Sincerely,
+Mary
+
+Construct an object of the Letter class and call addLine twice. Hints: (1) Use the concat method
+to form a longer string from two shorter strings. (2) The special string "\n" represents a new line.
+For example, the statement body = body.concat("Sincerely,").concat("\n"); adds a line containing
+the string "Sincerely," to the body.
+
+
+
+Part II:
+Implement a class Balloon. A balloon starts out with radius 0. Supply a method public void
+inflate(double amount) that increases the radius by the given amount. Supply a method public
+double getVolume() that returns the current volume of the balloon. Use Math.PI for the value of
+π. To compute the cube of a value r, just use r * r * r.
+
+Write a class Battery that models a rechargeable battery. A battery has a constructor public
+Battery(double capacity) where capacity is a value measured in milliampere hours. A typical AA
+battery has a capacity of 2000 to 3000 mAh. The method public void drain(double amount)
+drains the capacity of the battery by the given amount. The method public void charge() charges
+the battery to its original capacity. The method public double getRemainingCapacity() gets the
+remaining capacity of the battery.
+
+
+
+
+

@@ -1,0 +1,13 @@
+Part I:
+Implement a superclass Person. Make two classes, Student and Instructor, that inherit
+from Person. A person has a name and a year of birth. A student has a major and an instructor
+has a salary. Write the class declarations, the constructors, and the methods toString for all
+classes. Supply a test class for these classes and methods.
+
+
+Part II:
+Make a class Employee with a name and a salary. Make a class Manager inherit from
+Employee. Add an instance variable, named department, of type String. Supply a method
+toString that prints the manager’s name, department, and salary. Make a class Executive inherit
+from Manager. Supply appropriate toString methods for all classes. Supply a test class for these
+classes and methods.

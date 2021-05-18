@@ -1,0 +1,4 @@
+In Java every value is either a reference to an object or it belongs to one of the eight
+primitive types 
+Six of the primitive types are number types four of them for integers and two for
+floating-point numbers

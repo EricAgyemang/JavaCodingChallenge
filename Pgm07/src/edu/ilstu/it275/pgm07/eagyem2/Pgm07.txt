@@ -1,0 +1,51 @@
+Part I:
+An n X n matrix that is filled with the numbers 1, 2, 3 …, n2 is a magic square if the sum of the
+elements in each row, in each column and in the two diagonals is the same value.
+Write a Java application that reads in 16 values from the keyboard and tests whether they form a
+magic square when put into a 4 X 4 array.
+
+You need to test two features:
+1. Does each of the numbers 1, 2, …, 16 occur in the user input?
+2. When the numbers are put into a square, are the sums of the rows, columns, and
+diagonals equal to each other?
+
+
+
+Part II:
+Implement the following algorithm to construct magic n X n squares; it works only if n is odd.
+set row = n - 1, column = n / 2
+for k = 1 .. n * n
+place k at [row][column]
+increment row and column by 1
+
+if the row or column is n, replace it with 0
+if the element at [row][column] has already been filled
+set row and column to their previous values
+decrement row.
+
+
+Here is the 5 X 5 square that you get if you follow this method:
+|-------------|-------------|--------------|--------------|---------------|
+|    11       |      18     |     25       |      2       |      9        |
+|-------------|-------------|--------------|--------------|---------------|
+|             |             |              |              |               |
+|    10       |      12     |     19       |      21      |      3        |
+|-------------|-------------|--------------|--------------|---------------|
+|             |             |              |              |               |
+|     4       |       6     |     13       |      20      |      22       |
+|-------------|-------------|--------------|--------------|---------------|
+|             |             |              |              |               |
+|     23      |       5     |     7        |      14      |      16       |
+|-------------|-------------|--------------|--------------|---------------|
+|             |             |              |              |               |
+|      17     |       24    |     1        |       8      |      15       |
+|-------------|-------------|--------------|--------------|---------------|
+
+Write a Java application whose input is the number n and whose output is the magic square of
+order n if n is odd.
+
+
+
+
+
+

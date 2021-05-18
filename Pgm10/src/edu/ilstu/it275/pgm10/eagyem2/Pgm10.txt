@@ -1,0 +1,21 @@
+Part I:
+Write a class PrimeSequence that implements the Sequence interface from Lab10 and produces a
+sequence of prime numbers. Remember, a prime number is a whole number greater than 1,
+whose only two whole number factors are 1 and itself. The Sieve of Erathosthenes can be used
+to generate the list of prime numbers.
+
+
+
+Part II:
+Consider an interface
+public interface NumberFormatter {
+String format(int n);
+}
+
+Provide three classes that implement this interface. A DefaultFormatter formats an integer in the
+usual way. A DecimalSeparatorFormatter formats an integer with decimal separators; for
+example, one million as 1,000,000. An AccountingFormatter formats negative numbers with
+parentheses; for example, -1 as (1). 
+
+Also provide a test class to exercise each of the three specific
+formatter classes’s functionality.

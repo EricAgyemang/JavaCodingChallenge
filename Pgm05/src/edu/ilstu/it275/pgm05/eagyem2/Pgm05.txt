@@ -1,0 +1,53 @@
+Part I:
+Write a Java application that converts a positive integer into the Roman number system. The
+Roman number system has the following digits:
+I 1
+V 5
+X 10
+L 50
+C 100
+D 500
+M 1,000
+
+Numbers are formed according to the following rules:
+• Only numbers up to 3,999 are represented
+• As in the decimal system, the thousands, hundreds, tens, and ones are expressed
+separately
+• The numbers 1 to 9 are represented as the following (as you can see, an I preceding a V
+or X is subtracted from the value and you can never have more than three I’s in a row):
+I 1
+II 2
+III 3
+IV 4
+V 5
+VI 6
+VII 7
+VIII 8
+IX 9
+• Tends and hundreds are done the same way, except that the letters X, L, C and C, D, M
+are used instead of I, V, X respectively.
+Your application should take and input, such as 1978, and convert it to Roman numerals,
+MCMLXXVIII.
+
+
+Part II:
+A minivan has two sliding doors. Each door can be opened by either a dashboard switch, its
+inside handle, or its outside handle. However, the inside handles do not work if a child lock
+switch is activated. In order for the sliding doors to open, the gear shift must be in park and the
+mast unlock switch must be activated.
+
+Your task is to simulate a portion of the control software for the vehicle. The input is a sequence
+of values for the switches and the gear shift, in the following order:
+Dashboard switches for the left and right sliding door, child lock, and master unlock (0
+for off or 1 for activated)
+
+Inside and outside handles on the left and right sliding doors (0 for closed 1 for open)
+The gear shift setting (one of P R N D 1 2 3)
+
+A typical input would be 0 0 0 1 0 1 0 0 P The input values should be hard coded in a separate
+class main method to test the different combinations of positions the switches can be in.
+Print “left door opens” and/or “right door opens” as appropriate. If neither door opens, print
+“both doors stay closed”.
+
+
+

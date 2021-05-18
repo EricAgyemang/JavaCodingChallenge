@@ -1,0 +1,19 @@
+Part I:
+Write a Java application with loops that compute each of the following.
+• The sum of all even numbers between 2 and 100 (inclusive)
+• The sum of all squares between 1 and 100 (inclusive)
+• All powers of 2 from 2 to the 0th power up to 2 to the 20th power
+• The sum of all odd numbers between a and b (inclusive), where a and b are inputs.
+• The sum of all odd digits of an input. (For example, if the input is 32677, the sum
+would be 3 + 7 + 7 = 17).
+
+
+Part II:
+Write a Java application that reads in a line of input as a string and prints each of the
+following.
+• Only the upper case letters in the string
+• Every second letter of the string
+• The string, with all vowels (A, E, I, O, U) by an underscore
+• The number of vowels (A, E, I, O, U) in the string
+• The positions of all vowels (A, E, I, O, U) in the string
+To Be Submitted

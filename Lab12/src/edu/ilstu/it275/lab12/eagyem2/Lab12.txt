@@ -1,0 +1,11 @@
+Part I:
+Write a Java application that reads text from a file and breaks it up into individual
+words.
+
+First, insert the words into a tree set. At the end of the input file, print all words,
+followed by the size of the resulting set. This first part of the application
+determines how many unique words a text file has.
+Next, in addition to inserting the words into a tree set, insert each word int a map
+whose keys are the word lengths and whose values are comma-separated stings of
+words of the same length. At the end of the input file, print out all of the comma
+separated strings, in increasing order by the length of their entries.

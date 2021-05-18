@@ -1,0 +1,13 @@
+Part I:
+Implement the Coin class described in Section 8.2 of your book. Modify the
+CashRegister class so that coins can be added to the cash register, by supplying the method:
+public void receivePayment(int coinCount, Coin coin)
+The caller needs to invoke this method multiple times, once for each type of coin that is present
+in the payment.
+
+
+Part II:
+Modify the giveChange method of the CashRegister class so that it returns the number of
+coins of a particular type to return:
+int giveChange(Coin coin)
+The caller needs to invoke this method for each coin type, in decreasing value.

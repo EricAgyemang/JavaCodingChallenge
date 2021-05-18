@@ -1,0 +1,39 @@
+Part I:
+Simulate a circuit for controlling a hallway light that has switches at both ends of the hallway.
+Each switch can be up or down, and the light can be on or off. Toggling either swtich turns the
+light on or off. Provide each of the following methods methods:
+public int getFirstSwitchState() // 0 for down (off), 1 for up (on)
+public int getSecondSwitchState() // 0 for down (off), 1 for up (on)
+public int getLightState() // 0 for off, 1 for on
+public void toggleFirstSwitch()
+public void toggleSecondSwitch()
+public int getSwitchState(int switch)
+public void toggleSwitch(int switch)
+
+Write a CircuitTester class that tests all switch combinations, printing out actual and expected
+states for the switches and light.
+
+
+Part II:
+Write a class RaceWalker that models a race walker moving along a horizontal line. The race
+walker moves either to the right or left. Initially, the race walker moves to the right, but it can
+turn to change its direction. In each move, its position changes by one unit in the current
+direction. Provide a constructor:
+public RaceWalker(int initialPosition)
+and methods:
+public void turn()
+public void move()
+public int getPosition()
+Sample usage:
+RaceWalker rw = new RaceWalker(10)
+rw.move(); // now is at position 11
+rw.turn();
+rw.move(); // now is at position 10
+
+Your RaceWalkterTester should construct a race walker, make it move and turn a few times, and
+print the actual and expected position.
+
+
+
+
+

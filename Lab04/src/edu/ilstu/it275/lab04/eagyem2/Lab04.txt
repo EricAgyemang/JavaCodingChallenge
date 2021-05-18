@@ -1,0 +1,17 @@
+Part I:
+Write a Java application that prompts the user for a measurement in meters and then converts it
+to miles, feet, and inches. One meter is the equivalent of .000621371 miles. One meter is the
+equivalent of 3.28084 feet. One meter is the equivalent of 39.3701 inches. Use the Scanner
+class and the nextLine() method to collect the input from the user.
+
+
+Part II:
+Write a Java application that prompts the user for two times in military format (0900, 1730) and
+prints the number of hours and minutes between the two times. Here is a sample run. User input
+is underlined.
+Please enter the first time: 0900
+Please enter the second time: 1730
+8 hours 30 minutes
+Make sure your application can deal with the case where the first time is later than the second
+time (ie the first time is 1730 and the second time is 0900). In this case, the time difference is 15
+hours and 30 minutes.

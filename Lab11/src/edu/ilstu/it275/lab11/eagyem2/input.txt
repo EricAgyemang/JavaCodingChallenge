@@ -1,0 +1,4 @@
+The onboard computer used the position information for controlling the
+boosters. The same inertial reference
+systems and computer software had
+worked fine on the Ariane 4.

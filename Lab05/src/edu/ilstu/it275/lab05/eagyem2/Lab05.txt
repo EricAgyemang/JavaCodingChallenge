@@ -1,0 +1,13 @@
+Part I:
+A compass needle points a given number of degrees away from North, measured
+clockwise. Write a Java application that reads the angle and prints out the nearest compass
+direction, one of N, NE, E, SE, S, SW, W, NW. In the case of of a tie, prefer the nearest principal
+direction (N, S, E, or W).
+
+
+Part II:
+Write a Java application that reads in the name and salary of an employee. Here the
+salary will dent an hourly wage, such as $9.25. Then ask how many hours the employee worked
+in the past week. Be sure to accept fractional hours. Compute the pay. Any overtime work
+(over 40 hours per week) is paid at 150% of the regular wage. Print a paycheck for the
+employee. In the final solution be sure to include a Paycheck class.
